@@ -5,3 +5,7 @@
 - ...
 
 ## Directory Structure
+```bash
+|-- day1 
+|-- README.md
+```
