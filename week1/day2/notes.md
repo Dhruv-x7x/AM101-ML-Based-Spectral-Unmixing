@@ -10,3 +10,12 @@ The three stages of an unmixing algorithm are:
 - Inversion
 
 There is still a lot more to cover and I plan to finish up to page 15 tomorrow. 
+
+## HySUPP
+
+Downloaded the necessary dependencies to run the package in my environment without bugs. After trying to run an example from this package I ran into MLXP errors which I could not and did not have the time to resolve. I figured that this was an academic python package rather than a production grade one and had no maintainers. Looked into the codebase and found out about BayesianSMA model. Will look into its code in depth sometime this week. 
+
+From here I found out about a paper titled, "Solving Spectrum Unmixing as a Multi-Task Bayesian Inverse Problem with Latent Factors for Endmember Variability" by Wu et al, plan to read it tomorrow. Also found a paper titled "Probabilistic Mixture Model-Based Spectral Unmixing" by Hoidn et al.
+
+## Things left to do
+- explore the free datasets
