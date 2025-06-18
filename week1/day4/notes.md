@@ -24,3 +24,7 @@ There are two big reasons why we see mixed pixels in hyperspectral images:
  
 #### Sun and EM Waves
 In hyperspectral sensing, the incident signal is actually the sun. Electromagnetic radiation from the sun gets reflected upward by the natural and man-made substances on the surface of earth and hit the sensor.
+
+![image](https://github.com/user-attachments/assets/3106e89a-2fa6-46d9-850d-81d1ba79d021)
+
+The above image is from Keshava's survey. It illustrates the difference between linear and non-linear spectral mixing due to scattering of sunlight.
