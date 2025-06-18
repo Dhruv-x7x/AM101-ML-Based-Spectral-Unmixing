@@ -26,5 +26,14 @@ Keshava describes these criteria in the following way:
 
 #### Interpretation of Data
  
-Under this criterion we can discriminate the algorithms into statistical and non-statistical. In statistical algorithms, we "quantitatively introduce the aggregate behaviour of the larger population into the processing of a single pixel without knowing anything about the probabilistic nature of the data". An example could be bilinear interpolation where the average of the neighborhood of a pixel is used as its value.
+Under this criterion we can discriminate the algorithms into statistical and non-statistical. In statistical algorithms, we "quantitatively introduce the aggregate behaviour of the larger population into the processing of a single pixel without knowing anything about the probabilistic nature of the data". An example could be bilinear interpolation where the average of the neighborhood of a pixel is used as its value. Statistical methods can complicate the detection of low probability targets. 
+
+#### Description of Randomness
+
+Based on the assumptions taken during algorithm derivations or for the optimization steps, algorithms can be divided into parametric and non-parametric methods. If an algorithm assumes that the received data originates from a parametrized probability density function then it is a parametric method. If there is no such assumption, it is non-parametric. An example of parametric algorithms may be those that use gaussian probability density functions in their derivations. 
+All parametric algorithms are statistical but the converse is not true. 
+
+#### Optimization Criterion
+
+The third and final classification of algorithm stages is the optimization criterion. It mostly follows as a direct consequence of the previous divisions for example, parametric method use Maximum A Posteriori estimation or Maximum Likelihood while non-parametric methods use cost functions such as the squared error or other non-squared error cost functions. 
 
