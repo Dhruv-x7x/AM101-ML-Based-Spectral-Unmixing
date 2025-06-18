@@ -37,3 +37,9 @@ All parametric algorithms are statistical but the converse is not true.
 
 The third and final classification of algorithm stages is the optimization criterion. It mostly follows as a direct consequence of the previous divisions for example, parametric method use Maximum A Posteriori estimation or Maximum Likelihood while non-parametric methods use cost functions such as the squared error or other non-squared error cost functions. 
 
+---
+
+After the top-down approach described above, Keshava describes a bottom-up appraoch which delineates algorithms based on their unique characteristics at each stage. For example gaussian noise models versus non-gaussian noise models. These unique characteristics are divided into the following categories:
+- Input
+- Output
+- Noise - Modelling
