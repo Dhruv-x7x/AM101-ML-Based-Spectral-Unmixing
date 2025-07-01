@@ -14,3 +14,7 @@ $$x = a_1s_1 + a_2s_2 + ... + a_Ms_M + w$$
 $$x = \sum_{i=1}^M a_is_i + w = Sa + w$$
 
 where M is the number of endmembers, S is the matrix of endmembers and w is the error term representing additive noise. For N pixels we can write the vectorized formula as $X = SA + W$. Here A is the non-negative abundance matrix whose elements sum to one for physical realizability.
+
+#### Non-Linear Mixing Model
+
+The components in the mixture are "randomly distributed in a homogenous way". The incident ray can experience reflection with multiple substances and "the aggregate spectrum no longer upholds the linear proportion of the constituent substance spectrum."
