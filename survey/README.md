@@ -6,4 +6,5 @@ This directory contains the notes that I made while reading different research p
 ```bash
 |-- week1
 |-- week2
+|-- README.md
 ```
