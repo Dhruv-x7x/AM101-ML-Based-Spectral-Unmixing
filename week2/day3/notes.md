@@ -49,4 +49,4 @@ Collected by: M Graña, MA Veganzons, B Ayerdi and available [here](https://www.
 $$SRE = 10log_{10}(\frac{E[||x||_2^2]}{E[||x - \bar x||_2^2]})$$
 - Spectral Angle Mapper (SAM)
 - PSNR
-- 
+- Accuracy/Precision for classification tasks
