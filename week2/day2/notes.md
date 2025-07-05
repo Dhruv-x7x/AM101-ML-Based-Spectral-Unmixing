@@ -27,5 +27,6 @@ This simplex encloses all the datapoints in higher dimensions.
 
 Advantages of Geometric Endmember Determination over Statistical:
 - Geometric techniques are able to identify low-probability targets.
+
 Disadvantages:
 - Geometric techniques use all of the data which can sometimes include *aberrant* pixels (sensor artifacts) that can create spurious results.
