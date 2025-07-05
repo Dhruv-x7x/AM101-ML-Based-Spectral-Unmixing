@@ -2,8 +2,7 @@
 
 ## Repository Structure
 ```bash
-|-- week1
-|-- week2
+|-- survey
 |-- .gitignore
 |-- README.md
 ```
