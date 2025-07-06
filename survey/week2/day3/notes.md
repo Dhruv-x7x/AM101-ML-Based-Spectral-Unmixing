@@ -21,6 +21,8 @@ Hyperspectral Digital Imagery Collection Experiment (HYDICE) dataset is a benchm
 
 The ground truth map with vehicles marked across 10 locations is provided as well. A initial exploration of the image and ground truth map is done in `../week1/day7/hydice_research.ipynb`
 
+The ground truth did not have the endmember classes so I discarded the use of this dataset for now.
+
 ### Synthetic Dataset
 
 @misc{zhao2019laboratorycreateddatasetgroundtruthhyperspectral,
@@ -40,6 +42,14 @@ The ground truth map with vehicles marked across 10 locations is provided as wel
 Taken at Indiana, USA. This dataset has images of 145 × 145 pixels, 224 spectral bands (of which 200 are used). There are 16 land cover classes. 
 
 Collected by: M Graña, MA Veganzons, B Ayerdi and available [here](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes).
+
+### Salinas
+
+Collected by 224-band AVIRIS sensor over Salinas Valley, California. 
+
+Spatial Resolution: 3.7m/px
+Classes: 16
+Bands: 204
 
 ## Metrics
 
